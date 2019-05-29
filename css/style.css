@@ -40,8 +40,8 @@ background-color:#C74C4E;
 #audio-info .artist{
 	font-weight:bold;
 }
-cover{
-	width:100px;
+.cover{
+	width:100%;
 	z-index:1;
 }
 input#volume{
