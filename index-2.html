@@ -1,21 +1,21 @@
 <!DOCTYPE html>
+<html>
 <head>
-
  <title>Reproductor de Audio</title>
  
     <!--grupo JavaScript-->
-    <script src="phonegap.js"></script>
+    <script src="js/jquery.js"></script>
+   
     
     <!--grupo CSS-->
     <link rel="stylesheet" href="css/style.css" media="screen">
+ </head>
  
-</head>
 <body>
 <div data-role="header" align="center">
 <h1>Reproductor mp3</h1>
 </div>
 <div id="container">
-
 	<div id="audio-image">
 		<img class="cover" />
 	</div>
@@ -27,11 +27,9 @@
 		 <br>
 		 <div id="buttons">
 		 <span>
-            <!--<button id="prev"></button>-->
 			<button id="play"></button>
 			<button id="pause"></button>
 			<button id="stop"></button>
-			<!--<button id="next"></button>-->
 			</span>
 		 </div>
 		 <div class="clearfix"></div>
@@ -57,12 +55,12 @@
 			<li song="David Guetta feat. Ne-Yo & Akon - Play Hard.mp3" cover="david guetta1.jpg" artist="David Guetta">Play Hard.mp3</li>
 		</ul>
 	</div>
-    <script src="js/jquery.js"></script>
-    <script src="js/main.js"></script>
+     <script src="js/main.js"></script>
+    <script src="phonegap.js"></script>
 </div>
 
-  <div data-role="footer" align="center" data-theme="b" data-position="fixed">
-     <h4>Jose Antonio Gomez Hernandez</h4>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+     <h4>Agustin Uriel Ramos Zuñiga</h4>
        <img src="res/android/mdpi.png" width="56" height="46">
  </div>
 </body>

@@ -40,7 +40,7 @@ background-color:#3ff
 #audio-info .artist{
 	font-weight:bold;
 }
-.cover{
+cover{
 	width:100px;
 	z-index:1;
 }
@@ -76,7 +76,7 @@ button#pause{
 button#stop{
 	width:70px;
 	height:70px;
-	background::url(../images/stop.png) no-repeat;foat:left;
+	background:url(../images/stop.png) no-repeat;float:left;
 }
 
 #playlist{
